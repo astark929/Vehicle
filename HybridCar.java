@@ -18,7 +18,7 @@ public class HybridCar extends Car implements Combustible, Chargeable
         return FuelLevel;
     }
 
-    @Override
+    
     public void tankUp() {
         FuelLevel = 100;
     }
@@ -27,7 +27,7 @@ public class HybridCar extends Car implements Combustible, Chargeable
         return BatteryCharge;
     }
 
-    @Override
+    
     public void chargeUp() {
         BatteryCharge = 100;
     }
