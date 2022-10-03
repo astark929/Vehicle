@@ -8,7 +8,7 @@ public class ElectricCar extends Car implements Chargeable {
         super(manufacturerName, miles, price, seats, options, doors);
     }
 
-    @Override
+    
     public void chargeUp() {
         BatteryCharge = 100;
     }
