@@ -12,7 +12,7 @@ public class GasCar extends Car implements Combustible{
         return fuelLevel;
     }
 
-    @Override
+    
     public void tankUp(){
         fuelLevel = 100;
     }
